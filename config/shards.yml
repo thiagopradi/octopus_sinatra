@@ -1,0 +1,11 @@
+octopus:
+  shards:
+    america:
+      adapter: sqlite
+      database: america.sqlite3
+    europe:
+      adapter: sqlite
+      database: europe.sqlite3
+    asia:
+      adapter: asia
+      database: asia.sqlite3
