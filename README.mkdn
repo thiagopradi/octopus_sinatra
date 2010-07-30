@@ -4,7 +4,7 @@ This is a sample application using octopus + sinatra. This app demonstrate the b
 
 ## How to Run:
 <pre>
-git clone 
+git clone git://github.com/tchandy/octopus_sinatra.git
 cd octopus_sinatra
 bundle install
 rake db:migrate
