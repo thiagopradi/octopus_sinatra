@@ -1,0 +1,28 @@
+!!! Strict
+%html
+  %head
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}
+    %title Sinatra Octopus Example
+  %body
+    #container
+      #header
+        %h1 Sinatra Octopus Example
+        #user-navigation
+          %ul.wat-cf
+            Octopus + Sinatra = Awesome!
+        <div id="main-navigation">
+        <ul class="wat-cf"></ul>
+        </div>
+      #wrapper.wat-cf
+        .flash
+        #main
+          Infos about your shard:
+          %p= "Name: #{params[:shard]}"
+          %p
+            = OrmInfo.build(params[:shard])
+          - User.using(params[:shard].to_sym).all.each do |user|
+            %p= "User Id: #{user.id} Name: #{user.name}"
+          #footer
+            .block
+              <p>Copyright &copy; #{ Time.now.year } Thiago Pradi.</p>
+        #sidebar

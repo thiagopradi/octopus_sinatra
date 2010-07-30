@@ -1,0 +1,30 @@
+!!! Strict
+%html
+  %head
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}
+    %title Sinatra Octopus Example    
+  %body
+    #container
+      #header
+        %h1 Sinatra Octopus Example
+        #user-navigation
+          %ul.wat-cf
+            Octopus + Sinatra = Awesome!
+        <div id="main-navigation">
+        <ul class="wat-cf"></ul>
+        </div>
+      #wrapper.wat-cf
+        .flash
+        #main
+          Hi! Welcome to the sinatra replication Example! Please select what shard you want to use:
+          %p
+            %a{:href => '/database/america'} America
+          %p
+            %a{:href => '/database/europe'} Europe
+          %p
+            %a{:href => '/database/asia'} Asia          
+          #footer
+            .block
+              <p>Copyright &copy; #{ Time.now.year } Thiago Pradi.</p>
+        #sidebar
+        

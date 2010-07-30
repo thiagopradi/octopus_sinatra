@@ -1,0 +1,21 @@
+# Octopus Sinatra Example
+
+This is a sample application using octopus + sinatra. This app demonstrate the basics of octopus running outside Rails.
+
+## How to Run:
+<pre>
+git clone 
+cd octopus_sinatra
+bundle install
+rake db:migrate
+rackup
+</pre>
+
+## Thanks
+
+This project is sponsored by the <a href="http://www.rubysoc.org">Ruby Summer of Code</a>,
+and my mentors <a href="http://github.com/mperham">Mike Perham</a> and <a href="http://github.com/amitagarwal">Amit Agarwal</a>.
+
+## Copyright
+
+Copyright (c) 2010 Thiago Pradi, released under the MIT license.

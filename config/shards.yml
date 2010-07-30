@@ -1,11 +1,11 @@
 octopus:
   shards:
     america:
-      adapter: sqlite
+      adapter: sqlite3
       database: america.sqlite3
     europe:
-      adapter: sqlite
+      adapter: sqlite3
       database: europe.sqlite3
     asia:
-      adapter: asia
+      adapter: sqlite3
       database: asia.sqlite3
