@@ -1,6 +1,6 @@
 # Octopus Sinatra Example
 
-This is a sample application using octopus + sinatra. This app demonstrate the basics of octopus running outside Rails.
+This is a sample application using octopus + sinatra. This app demonstrate the basics of octopus running outside Rails. starting the application, the user will select what shard they want to see information. 
 
 ## How to Run:
 <pre>
