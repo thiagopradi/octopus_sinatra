@@ -3,5 +3,5 @@ require 'bundler'
 Bundler.setup
 
 require 'sinatra'
-require 'server'
+require './server'
 run Sinatra::Application
